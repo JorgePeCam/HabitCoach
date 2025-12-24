@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF1103002EFC6B0100155727 /* HabitCoach in Frameworks */ = {isa = PBXBuildFile; productRef = CF1102FF2EFC6B0100155727 /* HabitCoach */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CF1102D32EFC5B7F00155727 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1103002EFC6B0100155727 /* HabitCoach in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				CF1102C52EFC5B7E00155727 /* HabitCoach */,
 				CF1102D52EFC5B7F00155727 /* HabitCoachTests */,
 				CF1102DF2EFC5B7F00155727 /* HabitCoachUITests */,
+				CF1102FE2EFC6B0100155727 /* Frameworks */,
 				CF1102C42EFC5B7E00155727 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				CF1102DC2EFC5B7F00155727 /* HabitCoachUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1102FE2EFC6B0100155727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = HabitCoach;
 			packageProductDependencies = (
+				CF1102FF2EFC6B0100155727 /* HabitCoach */,
 			);
 			productName = HabitCoach;
 			productReference = CF1102C32EFC5B7E00155727 /* HabitCoach.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = CF1102BA2EFC5B7E00155727;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CF1102FD2EFC6A5C00155727 /* XCLocalSwiftPackageReference "../Packages/HabitCoachKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CF1102C42EFC5B7E00155727 /* Products */;
 			projectDirPath = "";
@@ -578,6 +595,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CF1102FD2EFC6A5C00155727 /* XCLocalSwiftPackageReference "../Packages/HabitCoachKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/HabitCoachKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF1102FF2EFC6B0100155727 /* HabitCoach */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF1102FD2EFC6A5C00155727 /* XCLocalSwiftPackageReference "../Packages/HabitCoachKit" */;
+			productName = HabitCoach;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF1102BB2EFC5B7E00155727 /* Project object */;
 }
