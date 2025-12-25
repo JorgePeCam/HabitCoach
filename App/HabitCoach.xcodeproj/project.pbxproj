@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CF1103002EFC6B0100155727 /* HabitCoach in Frameworks */ = {isa = PBXBuildFile; productRef = CF1102FF2EFC6B0100155727 /* HabitCoach */; };
+		CFE644DE2EFD2FD60073B504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE644DA2EFD2FD60073B504 /* ContentView.swift */; };
+		CFE644DF2EFD2FD60073B504 /* HabitCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE644DB2EFD2FD60073B504 /* HabitCoachApp.swift */; };
+		CFE644E02EFD2FD60073B504 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE644DC2EFD2FD60073B504 /* Item.swift */; };
+		CFE644E12EFD2FD60073B504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE644D92EFD2FD60073B504 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +35,13 @@
 		CF1102C32EFC5B7E00155727 /* HabitCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1102D22EFC5B7F00155727 /* HabitCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1102DC2EFC5B7F00155727 /* HabitCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE644D92EFD2FD60073B504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE644DA2EFD2FD60073B504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFE644DB2EFD2FD60073B504 /* HabitCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCoachApp.swift; sourceTree = "<group>"; };
+		CFE644DC2EFD2FD60073B504 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CF1102C52EFC5B7E00155727 /* HabitCoach */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HabitCoach;
-			sourceTree = "<group>";
-		};
 		CF1102D52EFC5B7F00155727 /* HabitCoachTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HabitCoachTests;
@@ -80,7 +83,7 @@
 		CF1102BA2EFC5B7E00155727 = {
 			isa = PBXGroup;
 			children = (
-				CF1102C52EFC5B7E00155727 /* HabitCoach */,
+				CFE644DD2EFD2FD60073B504 /* HabitCoachApp */,
 				CF1102D52EFC5B7F00155727 /* HabitCoachTests */,
 				CF1102DF2EFC5B7F00155727 /* HabitCoachUITests */,
 				CF1102FE2EFC6B0100155727 /* Frameworks */,
@@ -105,6 +108,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CFE644DD2EFD2FD60073B504 /* HabitCoachApp */ = {
+			isa = PBXGroup;
+			children = (
+				CFE644D92EFD2FD60073B504 /* Assets.xcassets */,
+				CFE644DA2EFD2FD60073B504 /* ContentView.swift */,
+				CFE644DB2EFD2FD60073B504 /* HabitCoachApp.swift */,
+				CFE644DC2EFD2FD60073B504 /* Item.swift */,
+			);
+			path = HabitCoachApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CF1102C52EFC5B7E00155727 /* HabitCoach */,
 			);
 			name = HabitCoach;
 			packageProductDependencies = (
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE644E12EFD2FD60073B504 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE644DE2EFD2FD60073B504 /* ContentView.swift in Sources */,
+				CFE644DF2EFD2FD60073B504 /* HabitCoachApp.swift in Sources */,
+				CFE644E02EFD2FD60073B504 /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
